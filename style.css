@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  text-align: center; 
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom right, #ffeb00, #0000ff);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  border: 2px solid;
+  height: 682px;
+  width: 1219px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  background-image: url(/Images/bg-img.png);
+  border-radius: 41px;
+}
+
+.time {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: Montserrat;
+
+
+}
+
+#start {
+  background-color: #62e562d6;
+  border-radius: 20px;
+    width: 115px;
+}
+
+#stop {
+  background-color: red;
+  border-radius: 20px;
+    width: 115px;
+}
+
+#reset {
+  background-color: yellow;
+  border-radius: 20px;
+    width: 115px;
+}
+
+.main-title {
+  margin-top: -443px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#main-title {
+  color: rgb(2, 0, 0);
+  text-shadow: 2px 2px 4px #ad7618;
+
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
